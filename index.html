@@ -61,6 +61,74 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Hive" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/13/Hive/" class="article-date">
+  <time datetime="2018-02-13T07:25:42.000Z" itemprop="datePublished">2018-02-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ol>
+<li>hive支持从本地和hdfs读取数据到表中<ul>
+<li>分区表加载数据：LOAD DATA LOCAL INPATH ‘./examples/files/kv2.txt’ OVERWRITE INTO TABLE invites PARTITION (ds=’2008-08-15’);</li>
+<li>hdfs读取数据 LOAD DATA INPATH ‘/user/myname/kv2.txt’ OVERWRITE INTO TABLE invites PARTITION (ds=’2008-08-15’);<br>​</li>
+</ul>
+</li>
+<li>ds表示分区</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/13/Hive/" data-id="cjdqsgt3w00009659shmsatfp" class="article-share-link">Teilen</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-mysql" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/13/mysql/" class="article-date">
+  <time datetime="2018-02-13T04:46:53.000Z" itemprop="datePublished">2018-02-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h3><p>brew  services start mysql</p>
+<p>brew services stop mysql</p>
+<p>show databases;</p>
+<p>User mysql;</p>
+<p>Show tables;</p>
+<hr>
+<p><a href="https://gist.github.com/giwa/ed13ac177c1e1a97fba0" target="_blank" rel="noopener">配置Hive及安装方法</a></p>
+<p>注意后面要通过scheme初始化元数据库，并在mysql中建立元数据库和用户</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/13/mysql/" data-id="cjdqsgt420002965944qdd4xv" class="article-share-link">Teilen</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-test" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/02/10/test/" class="article-date">
@@ -88,7 +156,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/10/test/" data-id="cjdqsbz0b00018a59mutp2nff" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/10/test/" data-id="cjdqsgt4400039659wyyge5nc" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -133,7 +201,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/10/hello-world/" data-id="cjdqsbz0800008a59238lcpy1" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/10/hello-world/" data-id="cjdqsgt4000019659w3o3bacw" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -172,6 +240,14 @@
     <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2018/02/13/Hive/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/02/13/mysql/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2018/02/10/test/">test</a>
